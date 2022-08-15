@@ -1,6 +1,6 @@
 SET PATH=C:\msys32\mingw32\bin
 
-rem i live msys2 and packages authors
+rem i love msys2 and package's authors
 copy C:\msys32\mingw32\lib\libfreeglut_static.a C:\msys32\mingw32\lib\libfreeglut.a 
 
 SET PKGS=--static freeglut glfw3
