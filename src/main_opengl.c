@@ -26,7 +26,8 @@ static Vector2 seed_positions[SEEDS_COUNT];
 static Vector4 seed_colors[SEEDS_COUNT];
 static Vector2 seed_velocities[SEEDS_COUNT];
 
-void MessageCallback(GLenum source,
+
+__attribute__((stdcall)) void MessageCallback(GLenum source,
                      GLenum type,
                      GLuint id,
                      GLenum severity,
